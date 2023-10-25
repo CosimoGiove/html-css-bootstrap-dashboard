@@ -20,18 +20,57 @@ nav{
     color: #ff8f00;
 }
 
-.dropdown-menu{
-}
-
 .cg-colortext{
     background-color: #e5e5e5;
 }
 
 .cg-dimensione{
-    width: 80px;
+    width: 60px;
 }
 
 /**finenavbar**/
+
+/**navbarleft**/
+.cg-navbarleft{
+    width: 150px;
+    height: calc(100vh - 70px);
+    background-image: url(img/sidebar-bg.png);
+    background-size: cover;
+    background-color: #051e34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/**navbarleft**/
+
+/**info top**/
+.cg-info{
+    height:calc(100vh - 70px);
+    background-color:;
+    width: 100%;
+}
+
+.cg-bgcolor{
+    background-color: #1b72e8;
+}
+
+.cg-piano{
+    font-size: 12px;
+    background-color:#165bba;
+}
+
+.cg-plus{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 28px;
+}
+
+
+/**info /top**/
 
 
 
