@@ -50,6 +50,7 @@ nav{
 .cg-info{
     height:calc(100vh - 100px);
     width: 100%;
+    overflow-y: scroll;
 }
 
 .cg-bgcolor{
