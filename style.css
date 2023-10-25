@@ -48,8 +48,7 @@ nav{
 
 /**info top**/
 .cg-info{
-    height:calc(100vh - 70px);
-    background-color:;
+    height:calc(100vh - 100px);
     width: 100%;
 }
 
@@ -70,8 +69,26 @@ nav{
     line-height: 28px;
 }
 
-
 /**info /top**/
+
+/**main**/
+.cg-bordertable{
+    border: 1px solid #d2d2d2;
+}
+
+.cg-fontname{
+    font-size: 15px;
+}
+
+.cg-azione{
+    text-align: center;
+}
+
+.cg-avatar{
+    width: 30px;
+}
+/**main**/
+
 
 
 
