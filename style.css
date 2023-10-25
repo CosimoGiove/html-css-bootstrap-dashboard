@@ -1,0 +1,35 @@
+
+/**navbar**/
+nav{
+    height: 70px;
+}
+
+.cg-navbar,.cg-navbarright{
+    width: 150px;
+}
+
+.cg-iconnav{
+    list-style: none;
+}
+
+.cg-fonticon{
+    font-size: 15px;
+}
+
+.cg-color{
+    color: #ff8f00;
+}
+
+.dropdown-menu{
+}
+
+.cg-colortext{
+    background-color: #e5e5e5;
+}
+
+/**finenavbar**/
+
+
+
+
+

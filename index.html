@@ -24,12 +24,53 @@
 
 <body>
     <!--header-->
-    <header></header>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="cg-navbar">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+              
+              <form class=" col px-3" role="search">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="text" class="form-control cg-colortext" placeholder="Prova a cercare: lezioni di laravel" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+              </form>
+              <div class="cg-navbarright pt-2 ">
+                <ul class="d-flex cg-iconnav cg-fonticon">
+                    <li class="px-1"><i class="fa-solid fa-list"></i></li>
+                    <li class="px-2"><i class="fa-solid fa-question"></i></li>
+                    <li class="px-2"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                     <li>
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell cg-color"></i>
+                            </a>
+                          
+                            <ul class="dropdown-menu" style="">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                     </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+
+
+    </header>
     <!--main-->
     <main></main>
     <!--footer-->
     <footer></footer>
-
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
