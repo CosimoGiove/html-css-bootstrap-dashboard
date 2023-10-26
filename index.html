@@ -27,12 +27,12 @@
     <header>
         <nav class="navbar">
             <div class="container-fluid">
-                <div class="cg-navbar col-1 col-lg-1">
+                <div class="cg-navbar col-1 ">
                     <img class="d-none d-md-none d-sm-none d-lg-block" src="img/logo.svg" alt="logo">
                     <img class=" d-lg-none cg-dimensione " src="img/mobile-logo.png" alt="mobile-logo">
                 </div>
 
-                <form class=" col cg-marginform" role="search">
+                <form class=" col cg-marginform " role="search">
                     <div class="input-group">
                         <span class="input-group-text" id="basic-addon1">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -44,21 +44,21 @@
                 </form>
                 <div class="cg-navbarright pt-2 col-1 col-lg-1 ">
                     <ul class="d-flex cg-iconnav cg-fonticon">
-                        <li class="px-1 d-none d-md-none d-sm-none d-lg-block"><i class="fa-solid fa-list"></i></li>
-                        <li class="px-1 d-none d-md-none d-sm-none d-lg-block"><i class="fa-solid fa-question"></i></li>
-                        <li class="px-1 d-none d-md-none d-sm-none d-lg-block"><i
+                        <li class="cc-coloricon d-none d-md-none d-sm-none d-lg-block"><i class="fa-solid fa-list"></i></li>
+                        <li class=" cc-coloricon px-2 d-none d-md-none d-sm-none d-lg-block"><i class="fa-solid fa-circle-question"></i></li>
+                        <li class=" cc-coloricon px-2 d-none d-md-none d-sm-none d-lg-block"><i
                                 class="fa-solid fa-ellipsis-vertical"></i></li>
                         <li>
-                            <div class="dropdown px-1">
+                            <div class="dropdown ">
                                 <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    <i class="fa-solid fa-bell cg-color"></i>
+                                    <i class=" px-1 fa-solid fa-bell cg-color"></i>
                                 </a>
 
                                 <ul class="dropdown-menu" style="">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -157,27 +157,22 @@
                                             </button>
                                         </div>
                                     </h5>
-
-
+                                </div>                               
+                                <div class="offcanvas-body">
                                     <!--nome-->
                                     <div class="row">
-                                        <div class="col-12 col-md-6">
-                                            <h5 class="cg-email">Nome</h5>
+                                        <div class="col-12 col-md-6 mb-3">
+                                            <p class="cg-email">Nome</p>
                                             <input type="text" class="form-control" placeholder="Nome"
                                                 aria-label="Nome">
                                         </div>
                                         <!--cognome-->
-                                        <div class="col-12 col-md-6">
-                                            <h5 class="cg-email">Cognome</h5>
+                                        <div class="col-12 col-md-6 mb-3">
+                                            <p class="cg-email">Cognome</p>
                                             <input type="text" class="form-control" placeholder="Cognome"
                                                 aria-label="Cognome">
                                         </div>
                                     </div>
-
-
-                                </div>
-                                
-                                <div class="offcanvas-body">
                                     <form class="row g-3">
                                         <!--email-->
                                         <div class="col-12 col-md-6 cg-email">
@@ -249,7 +244,9 @@
                                           </div>
                                     </form>
                                 </div>
+                                
                             </div>
+                        
                         </div>
                     </div>
                     <!--/flex-->
