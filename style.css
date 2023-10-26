@@ -4,9 +4,10 @@ nav{
     height: 70px;
 }
 
-.cg-navbar,.cg-navbarright{
+.cg-navbars,.cg-navbarrights{
     width: 150px;
 }
+
 
 .cg-iconnav{
     list-style: none;
@@ -14,6 +15,7 @@ nav{
 
 .cg-fonticon{
     font-size: 15px;
+    padding: 0px;
 }
 
 .cg-color{
@@ -25,7 +27,11 @@ nav{
 }
 
 .cg-dimensione{
-    width: 60px;
+    width: 50px;
+}
+
+.cg-marginform{
+    padding-left: 55px;
 }
 
 /**finenavbar**/
@@ -96,8 +102,20 @@ nav{
 .cg-bgfaq{
     background-color: #f7f7f7;
 }
+.dropdown-menu[data-bs-popper]{
+    left: -150px;
+}
 /**main**/
 
+@media screen and (max-width:550px) {
+    .cg-fontname{
+        font-size: 13px;
+    }
+    .cg-avatar{
+        width: 20px;
+    }
+    
+}
 
 
 

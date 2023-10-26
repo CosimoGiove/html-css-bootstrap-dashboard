@@ -27,12 +27,12 @@
     <header>
         <nav class="navbar">
             <div class="container-fluid">
-                <div class="cg-navbar">
+                <div class="cg-navbar col-1 col-lg-1">
                     <img class="d-none d-md-none d-sm-none d-lg-block" src="img/logo.svg" alt="logo">
-                    <img class=" d-lg-none cg-dimensione mx-3" src="img/mobile-logo.png" alt="mobile-logo">
+                    <img class=" d-lg-none cg-dimensione " src="img/mobile-logo.png" alt="mobile-logo">
                 </div>
 
-                <form class=" col px-3" role="search">
+                <form class=" col cg-marginform" role="search">
                     <div class="input-group">
                         <span class="input-group-text" id="basic-addon1">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -42,14 +42,14 @@
                             aria-describedby="basic-addon1">
                     </div>
                 </form>
-                <div class="cg-navbarright pt-2 ">
+                <div class="cg-navbarright pt-2 col-1 col-lg-1 ">
                     <ul class="d-flex cg-iconnav cg-fonticon">
                         <li class="px-1 d-none d-md-none d-sm-none d-lg-block"><i class="fa-solid fa-list"></i></li>
-                        <li class="px-2 d-none d-md-none d-sm-none d-lg-block"><i class="fa-solid fa-question"></i></li>
-                        <li class="px-2 d-none d-md-none d-sm-none d-lg-block"><i
+                        <li class="px-1 d-none d-md-none d-sm-none d-lg-block"><i class="fa-solid fa-question"></i></li>
+                        <li class="px-1 d-none d-md-none d-sm-none d-lg-block"><i
                                 class="fa-solid fa-ellipsis-vertical"></i></li>
                         <li>
-                            <div class="dropdown">
+                            <div class="dropdown px-1">
                                 <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     <i class="fa-solid fa-bell cg-color"></i>
@@ -114,6 +114,9 @@
                             <span class="cg-piano rounded-3 px-3 py-1 text-white ">3 App
                             </span>
                             <span class="text-white mx-2"><i class="fa-solid fa-angles-right"></i></span>
+                            <span class=" d-lg-none col-block cg-plus d-inline-block rounded-4 border border-1 text-white cg-piano">
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
                             <span class="d-none d-lg-inline-block cg-piano rounded-3 px-3 py-1 text-white ">Boolena
                                 mobile app</span>
                             <span class="d-none d-lg-inline-block cg-piano rounded-3 px-3 py-1 text-white ">Boolean web
@@ -144,10 +147,10 @@
                 <!-- fine navbar-top-->
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-lg-8 col-md-12 col-12">
                             <!--table-->
                             <table class="table mt-4 cg-bordertable">
-                                <thead>
+                                <thead class="">
                                     <tr class="cg-bordertable">
                                         <th class="">
                                             <h2>Prossime classi</h2>
@@ -157,7 +160,7 @@
                                 <tbody class="">
                                     <!-- riga1-->
                                     <tr>
-                                        <th scope="row col-lg-6 col-md-5 col-6">
+                                        <th scope="row col-lg-6 col-md-5 col-5">
                                             <h5 class="fw-normal cg-fontname">Nome</h5>
                                         </th>
                                         <td class="col-lg-2 col-md-2">
@@ -167,16 +170,16 @@
                                             <div class=" d-none d-md-block">Roi</div>
                                         </td>
                                         <td class="col-lg-1 col-md-1  cg-azione col-3">Stato</td>
-                                        <td class="col-lg-2 col-md-3  cg-azione col-3"> Azioni
+                                        <td class="col-lg-2 col-md-3  cg-azione col-4"> Azioni
                                         </td>
                                        
                                     </tr>
                                     <!-- riga2-->
 
                                     <tr>
-                                        <th scope="row">
+                                        <th scope="row col-4">
                                             <img class="cg-avatar" src="img/class-avatar.jpg" alt="avatar">
-                                            <span class="fw-normal cg-fontname mx-2">Classe 75</span>
+                                            <span class="fw-normal cg-fontname mx-2 ">Classe 75</span>
                                         </th>
                                         <td class="">
                                             <div class="d-none d-md-block">15 feb 2021</div>
