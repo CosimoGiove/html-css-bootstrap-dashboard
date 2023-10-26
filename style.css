@@ -110,7 +110,33 @@ nav{
     vertical-align: text-bottom;
 }
 
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+    width: 50%;
+}
+.cg-contatticanvas{
+    text-align: left;
+}
+.offcanvas-header{
+    display: block;
+}
+
+.cg-email{
+    text-align: justify;
+}
+
+.cg-emailcanvas{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+
 /**main**/
+@media  screen and (max-width:992px) {
+    .offcanvas.show:not(.hiding), .offcanvas.showing {
+        width: 100%;}
+    
+}
 
 @media screen and (max-width:550px) {
     .cg-fontname{
