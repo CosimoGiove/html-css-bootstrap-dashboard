@@ -105,6 +105,11 @@ nav{
 .dropdown-menu[data-bs-popper]{
     left: -150px;
 }
+
+.cg-classi{
+    vertical-align: text-bottom;
+}
+
 /**main**/
 
 @media screen and (max-width:550px) {
